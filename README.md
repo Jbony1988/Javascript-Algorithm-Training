@@ -1,2 +1,3 @@
-# Javascript-Algorithm-Training
-Javascript Algorithm Training
+# AlgoCasts
+
+Companion repo to a course on Udemy.com
