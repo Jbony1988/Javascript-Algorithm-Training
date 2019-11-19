@@ -21,20 +21,20 @@
 //     .join("");
 // }
 
-// function reverse(str) {
-//   let rvrs = "";
-
-//   loop through each character and store it in the char variable
-//   and then add it at the begining of the rvrs variable
-//   for (let char of str) {
-//     rvrs = char + rvrs;
-//   }
-
-//   return rvrs;
-// }
-
 function reverse(str) {
-  return str.split("").reduce((rev, char) => char + rev, "");
+  let rvrs = "";
+
+  //   loop through each character and store it in the char variable
+  //   and then add it at the begining of the rvrs variable
+  for (let char of str) {
+    rvrs = char + rvrs;
+  }
+
+  return rvrs;
 }
+
+// function reverse(str) {
+//   return str.split("").reduce((rev, char) => char + rev, "");
+// }
 
 module.exports = reverse;
